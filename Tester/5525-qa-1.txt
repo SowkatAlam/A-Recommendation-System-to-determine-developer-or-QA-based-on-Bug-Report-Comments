@@ -1,0 +1,17 @@
+I'm going to mark this fix verified for now.
+I tried to input somewhat long messages using the JPN IME
+but this is extremely difficult to do because of severe
+IME/Editor bugs. It is not just productive to test this further
+given the state of the IME/Editor for M6.
+When I could input 2-3 lines of Japanese text (nearly impossible to
+do without an error by the way), I've confirmed that whatever I put
+in went out and arrived at the recipient's mailbox without truncation
+or disappearing.
+There could be something else wrong with this but we should wait
+until either 1) we can paste in Japanese text properly, 2)IME.Editor
+bugs get resolved and we can input more easily.
+Marking the fix verified for now.
+Adding to QA Blocker radar.
+"It is not just productive to test this further
+given the state of the IME/Editor for M6."
+What I meant was "M5" above.

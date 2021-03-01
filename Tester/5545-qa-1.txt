@@ -1,0 +1,6 @@
+This looks better, but still occurs in the Sidebar (specifically, in the
+content
+region of the active panel, which was 'News') using this morning's Windows
+build.
+evaughan, please let me know if you'd like me to split that into a separate bug
+report, or if it's still the same underlying issue.

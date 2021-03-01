@@ -1,0 +1,26 @@
+Still happening 15.Jun.99. Why this is _my_ bug, and not someone in Layout's, I
+have no idea.
+But I'll look at it more closely later.  Not today, though.  It's a minor bug. 
+Postponing.
+Rude of me to reassign this bug after it's been sitting in my lap for eight
+months.
+But here goes. Hey Eric -- this is clearly not a *window* bug; it's something
+in layout.
+The problem is, if you horizontally shrink the browser window until it's
+narrower than
+the menubar, the content area won't refresh when you size the window wider,
+until you've
+once again extended past the menubar. This seems to be Windows-specific.
+  I'm thinking it might be a box thing, but only on general principle. Feel
+like taking a look?s
+Rude of me to reassign this bug after it's been sitting in my lap for eight
+months.
+But here goes. Hey Eric -- this is clearly not a *window* bug; it's something
+in layout.
+The problem is, if you horizontally shrink the browser window until it's
+narrower than
+the menubar, the content area won't refresh when you size the window wider,
+until you've
+once again extended past the menubar. This seems to be Windows-specific.
+  I'm thinking it might be a box thing, but only on general principle. Feel
+like taking a look?

@@ -1,0 +1,6 @@
+Assigned to law.
+See bug 5710, we have decided to open a new window on Open (as the name says
+:-).
+*** This bug has been marked as a duplicate of 5710
+see bug 14945 for comments/to track
+*** This bug has been marked as a duplicate of 14945

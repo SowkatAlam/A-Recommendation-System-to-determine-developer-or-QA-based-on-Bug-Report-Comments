@@ -1,0 +1,10 @@
+Resolved as WORKSFORME.
+Chris Saari fixed a bug like this last week
+Assigned to matt.
+Matt, can you figure out who whacked the XUL here?
+This should be fixed on GTK now.
+I'll fix windows as soon as I get a successful build.
+This was technically a different bug. Before it infinitely added to the
+submenus.
+Now it just doubled them.
+Fixed.

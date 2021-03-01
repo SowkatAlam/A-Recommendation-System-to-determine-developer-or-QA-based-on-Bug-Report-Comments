@@ -1,0 +1,6 @@
+Resolved as WORKSFORME.
+The url "http://www.altavista.com/" loads fine for me with today's build.  No
+problems.
+Well, I'm not seeing this with a 64 MB PC either.  I'm going to move this to M6
+until we get some resproducible test cases from QA.
+OK, I'm resolving it as WORKSFORME again to get off my radar.

@@ -1,0 +1,4 @@
+This behavior is correct and in conformance with css2 desired behavior with
+floaters. Unlike navigator where content will always be placed next to a
+floater, even if that content fits, css2 defines a collection of rules that
+prevent overlap of content with floaters and floaters with other floaters.
