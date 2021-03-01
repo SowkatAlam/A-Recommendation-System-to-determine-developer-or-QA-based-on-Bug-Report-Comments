@@ -1,0 +1,19 @@
+I talked to Greg this morning, he is working on the Ender side change.
+The current plan is let Ender to return nsString with (UCS2). Since my change
+was needed for Ender to do a charset conversion, it's not needed for the current
+plan.
+Greg, my change is ready and reviewed. When do you think your change is ready?
+Do you think it's going to make M5?
+Although my change is separated from Ender, I was told to check in with your
+change so that this bug can be verified.
+Completed checkin with changes to OutputText and OutputHTML.
+Reassigning back to Nhotta. I believe that the Ender work is done, but I need
+Naoki to confirm that the work is done as required.
+Accepting bug.
+Adding ducarroz@netscape.com to cc because he is the owner of
+nsComposeAppCore.cpp.
+I found that we cannot change SendMessage to use char* because it is accessible
+by JavaScript, we need unicode here. Ender need to implement nsString version
+(i.e. current inteface) correctly.
+I still need to change nsComposeAppCore.cpp for charset menu, that's related but
+a separate change from Ender's change.

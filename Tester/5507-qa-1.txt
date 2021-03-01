@@ -1,0 +1,17 @@
+build id: 1999042608
+platforms this happens on: windows nt, mac os 8.5.1
+(linux crashes before opening the file)
+to reproduce this, select open from the file menu and open a local file. result:
+the file opens, but in a new window.
+expected result: the file opens in the current browser window.
+for the record, legacy Netscape browsers and IE all open local files in the
+spawning window, ie the window from which file | open was selected. given that
+this behavior is expected by (I assume) nearly all users, we should probably
+keep it in 5.0...
+I'm reopening this bug in hopes of getting the UI team to implement File | Open
+in the same manner it's implemented in previous versions of Communicator and in
+current versions of IE.
+Moving all Apprunner bugs past and present to Other component temporarily
+whilst
+don and I set correct component.  Apprunner component will be deleted/retired
+shortly.

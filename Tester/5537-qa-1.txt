@@ -1,0 +1,2 @@
+Based on Kipp's comments, marking as verified invalid.
+This issue still occurs in the June 30th builds (Mac, Win 95, Linux)

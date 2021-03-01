@@ -1,0 +1,25 @@
+this also happens when you delete a message.  The delete part is causing both
+bugs, so there's no need to file a bug on that as well
+Bug 5513 has been marked as a duplicate of this bug
+I just checked in the fix that will prevent this from crashing.  However, it
+will now just do nothing.  Chris Waterson is going to check in a fix that will
+fix this.  Though, even if he does fix this, this bug is occurring because I
+can't handle the case where a message is created without a folder or
+nsIDBMsgHdr.  I need to have a way to create these on the fly instead of
+expecting them to always exist
+This was fixed last night.  It should be in today's builds
+I need to work on this tomorrow.  I'm having trouble reproducing what I wrote
+above on my machine at home and now I need to pull a bunch of stuff to be able
+to compile.  So, this isn't going to make it by midnight.
+I still can't reproduce this on my machine at home.  But I'm seeing other
+strange refcounting problems related to deleting.  I need to spend some time on
+this today.  My guess is that changing DeleteHeader in nsMsgDatabase will be
+part of the changes.
+Oops.  You won't be able to verify this bug until the move menu is fixed.
+However, you can test the delete bug.
+So many questions!  I just filed bug #5510.  Alec is going to work on it
+Sorry, I just meant that it shouldn't be reopened because we haven't proved
+that
+move doesn't work.  I still believe the fix is valid which is why I marked it
+fixed again.  When the move menu bug is fixed, then we can safely say this bug
+has been verified or reopened.

@@ -1,0 +1,6 @@
+Charley: this is coming from modules/libpref/src/init/editor.js.
+We'd be better off removing those lines entirely than leaving them that way,
+since the current value is guaranteed not to work on two of the three platforms
+You should use nsIFileLocator in some way for this. Perhaps we need to add
+another enumerated value for the default location of new documents. I'm willing
+to act as guide on this.

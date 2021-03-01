@@ -1,0 +1,11 @@
+Looks like we are treating this bug the same as bug #5513 as a Delete crash bug.
+All right.  I'll verify it because it does not crash upon Delete on both Linux
+and win_nt 4.0
+From menu Message, select Move Message, no sub-menu is displayed. Looks like
+the move option is disabled. Reopen bug
+Moving message to another folder and deleting message no longer causes
+application to crash any more.
+But...
+On Linux build (1999-04-27-08)
+Both deleting and moving message to another folder still crashes.
+Reopen this bug and change it

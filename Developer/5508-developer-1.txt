@@ -1,0 +1,7 @@
+Fix checked in.
+You're right about nsPref.cpp. I am responsible for those lines there, because
+I
+pasted them in from prefapi.c. ltabb appears to be responsible for those lines
+in
+prefapi.c. Sorry to bother you.
+Accepting

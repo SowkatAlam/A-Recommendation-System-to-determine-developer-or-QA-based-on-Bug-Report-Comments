@@ -1,0 +1,7 @@
+I need to reopen this.
+The line is not broken between the character and the character which a line cannot end the line, $([\{?‘“(?[{<«????$£.
+For example,
+   Test case #2.
+     the line is not broken between   "?" and "("
+     next line now cannot be started "("   It starts "?(".  It should start "(??..."
+I verified this in 7-28-09 Win32, MAC, and Linux build.

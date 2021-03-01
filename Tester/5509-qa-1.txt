@@ -1,0 +1,8 @@
+Moving all Apprunner bugs past and present to Other component temporarily
+whilst
+don and I set correct component.  Apprunner component will be deleted/retired
+shortly.
+Updating QA Contact.
+i'm able to consistently reproduce this on both windows and linux using this
+morning's build (the 1999042608 build as reported earlier). therefore, I believe
+that this is still a problem. reopening bug.
